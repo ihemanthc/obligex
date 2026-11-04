@@ -1,0 +1,20 @@
+# shared package (schema / chunking / merge / eval) — pure python
+pydantic>=2.6
+
+# notebook 01: document parsing + teacher labelling
+pymupdf>=1.24
+python-docx>=1.1
+extract-msg>=0.48
+anthropic>=0.40          # API teacher (optional)
+openai>=1.40             # local vLLM teacher (optional)
+
+# notebook 02: fine-tuning (Colab installs these itself)
+# unsloth
+# trl>=0.12
+# peft>=0.13
+# accelerate
+# bitsandbytes
+# datasets
+
+# notebook 03: serving
+# vllm>=0.12             # NOTE: <0.12 uses the removed guided_json API
